@@ -1,11 +1,16 @@
 # PulsePad
 PulsePad is an ultra-compact, open-source 4-key micropad hardware design powered by the **Seeed Studio XIAO RP2040** microcontroller. Designed for maximum efficiency and a minimalist footprint, this pocket-sized macro pad strips away all the fluff to deliver pure, low-latency tactile control.
-
 Whether it's for dedicated media controls, streaming scene switches, or complex IDE macro shortcuts, PulsePad packs multi-core power into a clean, hardware-focused design.
+
+# 3d model
+<img width="479" height="421" alt="3d model" src="https://github.com/user-attachments/assets/913311f5-1c7a-4a23-9f92-116b6e7109b0" />
+
 # 3d front view of pcb
+
 <img width="284" height="471" alt="front-3d-pcb" src="https://github.com/user-attachments/assets/5976a9ed-bf01-4c06-a1fe-0a095362810c" />
 
 # 3d back view of pcb
+
 <img width="322" height="482" alt="back-3d-pcb" src="https://github.com/user-attachments/assets/10cf6066-ca57-4453-b852-c9c7cbc3cf18" />
 
 # pcb
