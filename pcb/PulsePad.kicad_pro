@@ -549,7 +549,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../../../gerber/",
+      "plot": "C:/Users/Sushan/Desktop/plusepad/gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -693,7 +693,7 @@
         "uuid": "ba8060ef-6892-403c-8b87-ad226ae5fccf"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H1-4",
     "variants": []
   },
   "sheets": [
