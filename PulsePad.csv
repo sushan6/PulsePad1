@@ -1,4 +1,5 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"C1, C2, C3, C4";"C_0402_1005Metric";4;"100 nF";;;
-2;"SW1, SW2, SW3, SW4";"SW_Cherry_MX_1.00u_PCB";4;"SW_Push";;;
-3;"U1";"XIAO-RP2040-SMD (1)";1;"XIAO-RP2040-SMD";;;
+| **ID** | **Designator** | **Footprint** | **Quantity** | **Designation** | **Supplier and Ref** |,,,
+| :--- | :--- | :--- | :--- | :--- | :--- |, C2, C3," C4"";""C_0402_1005Metric"";4;""100 nF"";;;"
+"| 1 | SW1, SW2, SW3, SW4 | SW_Cherry_MX_1.00u_PCB | 4 | SW_Push | [Amazon - Mechanical Switches](https://www.amazon.in/dp/B0HJYNT2W7) |", SW2, SW3," SW4"";""SW_Cherry_MX_1.00u_PCB"";4;""SW_Push"";;;"
+| 2 | U1 | XIAO-RP2040-SMD | 1 | XIAO-RP2040-SMD | [Robu - Seeed XIAO RP2040](https://robu.in/product/seeed-studio-xiao-rp2040-v1-0/) |,,,
+| 3 | — | Cherry MX Compatible | 4 | Keycaps | [Amazon - Gradient Keycap Set](https://www.amazon.in/dp/B0HGLWF4Q1) |,,,

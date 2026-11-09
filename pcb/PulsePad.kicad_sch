@@ -5,161 +5,6 @@
 	(uuid "ba8060ef-6892-403c-8b87-ad226ae5fccf")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -979,18 +824,6 @@
 		)
 	)
 	(junction
-		(at 101.6 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06d2d1c3-2a26-4ade-9300-5292904a05e5")
-	)
-	(junction
-		(at 100.33 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "231c2f54-9b4b-43c3-80dd-7d953c373650")
-	)
-	(junction
 		(at 81.28 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1001,18 +834,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ef49913-2fe6-4858-bd64-712d4f7579fe")
-	)
-	(junction
-		(at 101.6 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6521b5ac-c462-4c3a-80e9-59e14d3cdee4")
-	)
-	(junction
-		(at 110.49 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84c22f77-d09d-4d74-b8d8-e051a0f2fbc4")
 	)
 	(junction
 		(at 81.28 93.98)
@@ -1084,7 +905,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 86.36) (xy 121.92 86.36)
+			(xy 91.44 86.36) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1094,23 +915,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 96.52) (xy 101.6 96.52)
+			(xy 91.44 96.52) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b39a190-35f7-4675-b690-19c555b9bb50")
-	)
-	(wire
-		(pts
-			(xy 153.67 119.38) (xy 153.67 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4707da5e-eb13-4121-bbb4-ca58a5c88bc0")
 	)
 	(wire
 		(pts
@@ -1164,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 76.2) (xy 101.6 76.2)
+			(xy 91.44 76.2) (xy 123.19 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1204,36 +1015,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 100.33 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae282b93-305c-4099-83cf-a217dc42d63a")
-	)
-	(wire
-		(pts
-			(xy 101.6 76.2) (xy 123.19 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b24a4ca8-2394-4ff1-bbab-4226e63c864c")
-	)
-	(wire
-		(pts
-			(xy 91.44 114.3) (xy 110.49 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a8a173-efbb-431d-b993-b6c63e052df9")
-	)
-	(wire
-		(pts
 			(xy 81.28 114.3) (xy 81.28 125.73)
 		)
 		(stroke
@@ -1244,17 +1025,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 96.52) (xy 129.54 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c356a7-48eb-496e-bcb4-cc4ed443e782")
-	)
-	(wire
-		(pts
-			(xy 110.49 114.3) (xy 124.46 114.3)
+			(xy 91.44 114.3) (xy 124.46 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1271,85 +1042,6 @@
 			(type default)
 		)
 		(uuid "f425ddcf-2cdb-4d80-8f9c-2b8d1503463c")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a307338-ae47-42e1-a80c-0f9b14daf16d")
-		(property "Reference" "#PWR02"
-			(at 107.95 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 83.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc94e0fa-6947-48aa-8595-fa263b593be1")
-		)
-		(instances
-			(project "PulsePad"
-				(path "/ba8060ef-6892-403c-8b87-ad226ae5fccf"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1585,84 +1277,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c155f62-ebf3-44ae-9e10-559ea35765ae")
-		(property "Reference" "#PWR05"
-			(at 110.49 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d88f5ca-19b4-4936-93d2-4c98e9ada495")
-		)
-		(instances
-			(project "PulsePad"
-				(path "/ba8060ef-6892-403c-8b87-ad226ae5fccf"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 86.36 93.98 0)
 		(unit 1)
@@ -1817,249 +1431,6 @@
 			(project "PulsePad"
 				(path "/ba8060ef-6892-403c-8b87-ad226ae5fccf"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73acba2f-3a8c-4cda-b651-a9b17202f284")
-		(property "Reference" "#PWR04"
-			(at 107.95 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 104.1399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6d8890f-5b41-45eb-a799-5ffaaa7d6b15")
-		)
-		(instances
-			(project "PulsePad"
-				(path "/ba8060ef-6892-403c-8b87-ad226ae5fccf"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 101.6 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "746ac260-f1fd-4dc6-9192-eb38835f67fb")
-		(property "Reference" "C1"
-			(at 105.41 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 105.41 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 102.5652 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39b7723f-1b04-48e5-ba03-eaf0740a2441")
-		)
-		(pin "2"
-			(uuid "1aae3c18-a7d9-440f-8541-b93f3bde5a74")
-		)
-		(instances
-			(project "PulsePad"
-				(path "/ba8060ef-6892-403c-8b87-ad226ae5fccf"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 110.49 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d03ed0f-51ed-4b45-92b2-471a5e774d54")
-		(property "Reference" "C4"
-			(at 114.3 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 114.3 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 111.4552 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e1b0bc43-f8b6-48f1-9049-01dddc628119")
-		)
-		(pin "1"
-			(uuid "23c23448-b52d-47f0-9fc8-2db52c158729")
-		)
-		(instances
-			(project "PulsePad"
-				(path "/ba8060ef-6892-403c-8b87-ad226ae5fccf"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2455,7 +1826,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 123.19 0)
+		(at 153.67 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2466,7 +1837,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0862588-7ffb-45dc-9d25-91f2ba02f0cb")
 		(property "Reference" "#PWR01"
-			(at 153.67 129.54 0)
+			(at 153.67 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2477,7 +1848,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 128.27 0)
+			(at 153.67 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2487,7 +1858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 123.19 0)
+			(at 153.67 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2498,7 +1869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 123.19 0)
+			(at 153.67 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2509,7 +1880,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 123.19 0)
+			(at 153.67 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2670,167 +2041,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 101.6 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b836bd1e-5c4c-41cb-9500-8d001a8e30ce")
-		(property "Reference" "C3"
-			(at 105.41 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 105.41 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 102.5652 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec0717ee-5b04-442f-80e8-44abcc5c6c75")
-		)
-		(pin "2"
-			(uuid "c7f3622f-f5a5-40af-8315-6c3a8dec21fe")
-		)
-		(instances
-			(project "PulsePad"
-				(path "/ba8060ef-6892-403c-8b87-ad226ae5fccf"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 93.98 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb043bd1-099c-429b-8eee-e503821a8b63")
-		(property "Reference" "#PWR03"
-			(at 106.68 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 93.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8809e447-140c-495c-b875-f19739373fd5")
-		)
-		(instances
-			(project "PulsePad"
-				(path "/ba8060ef-6892-403c-8b87-ad226ae5fccf"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 81.28 125.73 0)
 		(unit 1)
@@ -2903,88 +2113,6 @@
 			(project "PulsePad"
 				(path "/ba8060ef-6892-403c-8b87-ad226ae5fccf"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c751fcb7-e91b-4eb7-844a-a37ec2b1fcd4")
-		(property "Reference" "C2"
-			(at 104.14 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 104.14 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 101.2952 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d00117d1-3a69-4e48-b504-dfade500fc2f")
-		)
-		(pin "1"
-			(uuid "31c0de17-6585-4404-aa6c-75450bbba315")
-		)
-		(instances
-			(project "PulsePad"
-				(path "/ba8060ef-6892-403c-8b87-ad226ae5fccf"
-					(reference "C2")
 					(unit 1)
 				)
 			)
