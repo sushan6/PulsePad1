@@ -1,5 +1,6 @@
-| **ID** | **Designator** | **Footprint** | **Quantity** | **Designation** | **Supplier and Ref** |,,,
-| :--- | :--- | :--- | :--- | :--- | :--- |, C2, C3," C4"";""C_0402_1005Metric"";4;""100 nF"";;;"
-"| 1 | SW1, SW2, SW3, SW4 | SW_Cherry_MX_1.00u_PCB | 4 | SW_Push | [Amazon - Mechanical Switches](https://www.amazon.in/dp/B0HJYNT2W7) |", SW2, SW3," SW4"";""SW_Cherry_MX_1.00u_PCB"";4;""SW_Push"";;;"
-| 2 | U1 | XIAO-RP2040-SMD | 1 | XIAO-RP2040-SMD | [Robu - Seeed XIAO RP2040](https://robu.in/product/seeed-studio-xiao-rp2040-v1-0/) |,,,
-| 3 | — | Cherry MX Compatible | 4 | Keycaps | [Amazon - Gradient Keycap Set](https://www.amazon.in/dp/B0HGLWF4Q1) |,,,
+Item,Link,Quantity,Cost (USD),Notes
+Seeed Studio XIAO RP2040,Robu.in,2,$13,$6.5 each
+Mechanical switches,Amazon.in,1 pack,$7,Pack of 40
+Gradient keycaps,Amazon.in,1 pack,$11,133-piece set
+Custom PCB,JLCPCB,5,$12.00,PCB fabrication
+Enclosures,N/A,5,$0.00,Self-printed
